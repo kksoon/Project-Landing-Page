@@ -1,27 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="landing-page.css">
-
-    <title> Landing Page</title>
-
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="landing-page.css" /> 
+    <title>
+        Landing Page
+    </title>   
 </head>
 <body>
-    <h1 class="Header Logo">Header Logo</h1>
-    <p class="Header Links">Header Link 1</p>
-    <p class="Header Links">Header Link 2</p>
-    <p class="Header Links">Header Link 3</p>
-
-    <div class="flex-container">
-        <div class="one"></div>
-        <div class="two"></div>
-        <div class="three"></div>
-      </div>
-
-
+    <section>
+        <header>
+            <nav>
+                <h3 class="Header_Logo">Header Logo</h3>
+                <ul class="Header_Links">
+                    <li>
+                        <a href="header link one"><h3>header link one</h3></a>
+                        <a href="header link one"><h3>header link two</h3></a>
+                        <a href="header link one"><h3>header link three</h3></a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        </section>
+    <section class="Hero_Main_text_Section">
+        <div>
+            <h1 style="font-size: 48px; color: #f9faf8; font-weight: extra-bold;">
+                This website is <br> awesome
+            </h1>
+            <p style="color: #e5e7eb; font-size: 18px;">
+                This website has some subtext that goes here under the <br> main title.
+                It's a smaller font and the color is lower <br> contrast
+            </p>
+            <button class="a">
+                Sign up
+            </button>
+        </div>
+        <div class="Image_Placeholder">
+            <p>
+                this is a placeholder for an image
+            </p>
+        </div>
+   </section>
+        <div style="padding: 40px;">
+            <h1 style="font-size: 36px; font-weight: extra-bold; color: #1f2937; text-align: center;">
+        Some random information
+            </h1>
+        </div>
+   <section class="Random_Information_Section">
+        <figure>
+            <img src='image.jpg' alt='missing' />
+            <figcaption>Caption goes here</figcaption>
+        </figure>
+        <figure>
+            <img src='image.jpg' alt='missing' />
+            <figcaption>Caption goes here</figcaption>
+        </figure>
+        <figure>
+            <img src='image.jpg' alt='missing' />
+            <figcaption>Caption goes here</figcaption>
+        </figure> 
+        <figure>
+            <img src='image.jpg' alt='missing' />
+            <figcaption>Caption goes here</figcaption>
+        </figure>
+    </section>
+    <section class="Quote_Section">
+        <div>
+            <p style="text-align: center; font-size: 36px; font-style: italic; color: #1f2937;">
+                This is an inspiring quote, or a testimonial from a <br> customer.
+                Maybe it's just filling up space, or maybe <br> people will actually read it.
+                Who knows? All I know <br> is that it looks nice.
+            </p>
+            <p style="text-align: end; font-size: 30px;">
+                <strong>-Thor, God of Thunder</strong>
+            </p>
+        </div>
+    </section>   
+   
+    <section class="Sign_Up_Section">
+        <div>
+            <article><strong>Call to Action! It's time!</strong><br>Sign up for our product by clicking right over there!</article>
+        </div>
+        <button class="b" style="border-radius: 8px; border: 2px solid white;">
+            Sign up
+        </button>
+        </section>
+   
+    <footer>Copyright &#169 The Odin Project 2021</footer>
 </body>
 </html>

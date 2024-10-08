@@ -1,0 +1,101 @@
+header {
+    background-color: #1f2937;
+    position: static;
+    padding: 0;
+    margin: 0;
+    }
+footer {
+    background: #1f2937;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    }
+body {
+    margin: auto;
+    padding: 0;
+    }
+section {
+    padding: 0;
+    margin: 0;
+    }
+div {
+    padding: 0;
+    margin: 0;
+    }
+nav {
+    display: flex;
+    justify-content:space-around;
+    padding: 20px;
+    }
+button.a {
+    padding: 10px;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 8px;
+    }
+button.b {
+    padding: 10px;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 8px;
+    border: 2px white;
+    cursor: pointer;
+}
+/* END OF BASE STYLES */
+
+
+
+
+.Hero_Main_text_Section {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    }
+.Quote_Section {
+    background-color: #e5e7eb;
+    padding: 100px;
+    }
+.Random_Information_Section {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    }
+.Image_Placeholder {
+    color: white;
+    background-color: grey;
+    padding: 100px;
+    margin: 0;
+}
+.Header_Logo {
+    font-size: 24px;
+    color: #f9faf8;
+    margin: 20px
+    }
+.Header_Links {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;    
+    }
+.Sign_Up_Section {
+    display: flex;
+    justify-content:space-around;
+    background-color: #3882f6;
+    color: white;
+    font-size: 20px;
+    padding: 60px;
+    margin: 60px;
+    }
+h3 {
+    margin: 20px;
+    display: inline-block;
+    text-align: right;
+}
+img {
+    border: 5px solid #3882f6;
+    border-radius: 4px;
+}
